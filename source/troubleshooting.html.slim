@@ -2,12 +2,8 @@
 title: Troubleshooting
 ---
 
-article
-  h3#lights-stay-on Lights stay on when I attempt to turn the car off
-  markdown:
-    Depending on your settings, light may stay on for a few seconds. But if they remain on, you may have moved the lights setting (on the left-hand stalk) away from auto, e.g. to parking lights. Turn the setting back to auto.
-
-article
-  h3#charge-does-not-start A charge doesn’t start (e.g. car’s charging light blinks white but then turns off and never turns blue)
-  markdown:
-    Apply gentle pressure on the plug, pushing it forward and into the socket. This may help the charger’s lock pin engage. This issue has been seen e.g. with Engie/GeniePoint chargers and certain InstaVolt chargers.
+- data.troubleshooting.articles.each do |a|
+  article
+    a name=a.anchor
+    h3 = a.title
+    = markdown a.body

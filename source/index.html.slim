@@ -12,8 +12,8 @@ markdown:
 
   h3: a href="/troubleshooting" Troubleshooting
   ul
-    li: a href="/troubleshooting#lights-stay-on" Lights stay on when I attempt to turn the car off
-    li: a href="/troubleshooting#charge-does-not-start" A charge doesn’t start (e.g. car’s charging light blinks white but then turns off and never turns blue)
+  - data.troubleshooting.articles.each do |a|
+    li: a href="/troubleshooting##{a.anchor}" = a.title
 
   h3 Learn more
   ul

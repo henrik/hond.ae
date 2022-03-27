@@ -35,6 +35,10 @@ helpers do
   def site_title
     "The Honda e Knowledge Base"
   end
+
+  def markdown(text)
+    Kramdown::Document.new(text).to_html
+  end
 end
 
 # Build-specific configuration
