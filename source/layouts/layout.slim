@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    meta charset="utf-8"
+    meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    title = [ current_page.data.title, site_title ].compact.join(" – ")
+    = stylesheet_link_tag "site"
+    = javascript_include_tag "site"
+  body
+
+    h1
+      a href="/" = site_title
+
+    - if current_page.data.title
+      h2 = current_page.data.title
+
+    = yield
+    footer
+      p Some "source" links may point to private Facebook groups and will only work for group members.
+
+      p Follow any advice at your own risk.
+
+      p Site by <a href="https://henrik.nyh.se">Henrik Nyh</a>.
