@@ -20,6 +20,11 @@ ul
   - data.new_owner.articles.each do |a|
     li: a href="/new-owner##{a.anchor}" = inline_markdown(a.title)
 
+h3: a href="/how-to" How to…
+ul
+  - data.how_to.articles.each do |a|
+    li: a href="/how-to##{a.anchor}" = inline_markdown(a.title)
+
 h3: a href="/troubleshooting" Troubleshooting
 ul
   - data.troubleshooting.articles.each do |a|
