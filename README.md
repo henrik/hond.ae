@@ -4,7 +4,7 @@
 
 ## Develop
 
-    bundle exec middleman server
+    bundle exec middleman
 
 Visit <http://localhost:4567/>.
 
