@@ -1,9 +1,14 @@
 $big-space: 60px;
 $mid-space: 30px;
+$small-space: 20px;
 
 $charge-yellow: #c4bb00;
 $light-yellow: #ffff9f;
 $light-gray: #ccc;
+
+@mixin large-display {
+  @media (min-width: 40em) { @content; }
+}
 
 
 body {
@@ -13,8 +18,12 @@ body {
   line-height: 1.5;
   font-size: 16px;
   max-width: 40em;
-  padding: $big-space $mid-space;
   margin: 0 auto;
+
+  padding: $small-space;
+  @include large-display {
+    padding: $big-space $mid-space;
+  }
 }
 
 a {
@@ -41,7 +50,7 @@ li {
   display: block;
   margin: 2em auto;
 
-  @media (min-width: 40em) {
+  @include large-display {
     float: right;
     margin: 1.5em 0 0 0;
   }
@@ -57,6 +66,9 @@ article {
 
 h1 {
   line-height: 1.2;
+
+  font-size: 26px;
+  @include large-display { font-size: 32px; }
 }
 
 h1 a {
