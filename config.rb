@@ -33,7 +33,7 @@ page "/*.txt", layout: false
 
 helpers do
   def site_title
-    "The Honda e Knowledge Base"
+    "Honda e Knowledge Base"
   end
 
   def markdown(text)
