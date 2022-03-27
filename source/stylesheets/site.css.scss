@@ -21,9 +21,7 @@ body {
   margin: 0 auto;
 
   padding: $small-space;
-  @include large-display {
-    padding: $big-space $mid-space;
-  }
+  @include large-display { padding: $big-space $mid-space; }
 }
 
 a {
