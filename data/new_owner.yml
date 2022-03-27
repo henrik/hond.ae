@@ -19,7 +19,7 @@ articles:
         The car knows to apply the “home” charging schedule by checking the “home” location you’ve set in the built-in satnav. If you don’t set one, it won’t apply this schedule.
 
   -
-    anchor: charging-shedule
+    anchor: charging-schedule
     title: "The \"Charging Wait Time Schedule\" sets the period when *not* to charge"
     body: |
         If you e.g. want your car to charge 00:30 to 04:30, the schedule should start at 04:30 and end at 00:30.
@@ -35,4 +35,4 @@ articles:
     anchor: subzero-range
     title: You may be able to drive some distance after hitting 0%
     body: |
-        In [this test](https://autobest.org/wp-content/uploads/2021/11/Key-Figures-and-indexes-of-ECOBEST-Challenge-2021.pdf?fbclid=IwAR10N3zlaabUWHAgepLKLrbe5Tm0I-7eWe8QV0VNWSsQjriWc-ecE0pSvEs) ([via](https://autobest.org/ecobest-challenge-electrified-by-vinfast-technical-backgrounds-and-key-figures-findings-and-interpretation/)), the Honda e Advance could go another 31.8 km (19.8 miles) after showing 0% state of charge. It’s likely bad for the battery to do this regularly, but could be good to know in an emergency situation.
+        In [this test](https://autobest.org/wp-content/uploads/2021/11/Key-Figures-and-indexes-of-ECOBEST-Challenge-2021.pdf?fbclid=IwAR10N3zlaabUWHAgepLKLrbe5Tm0I-7eWe8QV0VNWSsQjriWc-ecE0pSvEs) ([via this page](https://autobest.org/ecobest-challenge-electrified-by-vinfast-technical-backgrounds-and-key-figures-findings-and-interpretation/)), the Honda e Advance could go another 31.8 km (19.8 miles) after showing 0% state of charge. It’s likely bad for the battery to do this regularly, but could be good to know in an emergency situation.
