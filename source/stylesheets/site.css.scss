@@ -44,11 +44,28 @@ li {
   margin: 0.5em 0;
 }
 
+@keyframes slide {
+  from {
+    opacity: 0;
+    left: 200px;
+  }
+
+  to {
+    opacity: 100%;
+    left: 0;
+  }
+}
+
 .hero {
   width: 24em;
   shape-margin: 0.5em;
 
   margin: 2em auto;
+
+  position: relative;
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 
   @include large-display {
     float: right;
