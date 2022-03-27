@@ -1,0 +1,14 @@
+---
+title: Things a prospective owner should know
+---
+
+ul
+  - data.prospective_owner.articles.each do |a|
+    li: a href="##{a.anchor}" = inline_markdown(a.title)
+
+hr
+
+- data.prospective_owner.articles.each do |a|
+  article id=a.anchor
+    h3 = inline_markdown(a.title)
+    = markdown a.body
