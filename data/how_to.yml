@@ -11,3 +11,90 @@ articles:
     title: Set a custom background image
     body: |
         See [this forum thread](https://www.hondaeforums.com/viewtopic.php?f=8&t=255) for format specifics, templates etc.
+
+
+  -
+    anchor: turn-off-climate-feedback
+    title: Turn off the feedback display for climate controls
+    body: |
+        When you use climate controls, the screen will show what you did for a few seconds. This can be annoying since it covers whatever the screen was showing previously – like satnav. See [this forum post](https://www.hondaeforums.com/viewtopic.php?p=5435#p5435) for how to turn it off.
+
+  -
+    anchor: play-pause-buttons
+    title: Play/pause music via physical buttons
+    body: |
+        The “⏻ AUDIO” button on the dashboard will effectively play/pause music. On wireless CarPlay, you will lose a few seconds when you un-pause.
+
+        To play/pause CarPlay from the steering wheel, you can select “Audio” and then scroll the wheel to some other input like Bluetooth and select it to pause. Scroll back to CarPlay to resume.
+
+        ([Source](https://www.facebook.com/groups/HondaeUK/posts/2979838652271604/).)
+
+  -
+    anchor: hdmi-while-driving
+    title: Enable HDMI while driving
+    body: |
+        Normally you can’t play HDMI video while driving, but this can be enabled via a secret diagnostics menu – though it resets when the car is restarted.
+
+        Don’t watch video while driving! Only use this for the benefit of passengers.
+
+        [This video](https://www.youtube.com/watch?v=dB_NJ2xRQag) shows how to do it. Also see [the forum discussion](https://www.hondaeforums.com/viewtopic.php?t=365).
+
+  -
+    anchor: cc-into-single-pedal
+    title: Turn off cruise control and re-activate Single Pedal Control
+    body: |
+        You can press the Single Pedal Control button to turn off cruise control and re-activate Single Pedal Control at the same time (though you’ll get an angry beep).
+
+  -
+    anchor: avoid-flat-12v
+    title: Avoid the 12V battery running flat
+    body: |
+        Keep the driver’s seat belt fastened if you leave the car on when stopped.
+
+        If the seat belt is not fastened, after a while the car will show this dialog: "The vehicle automatically turns OFF to save battery power after a while. Do you want to cancel this function? Yes / No".
+
+        Presumably this is about preserving the 12V battery which powers e.g. the infotainment system and the 12V socket used for the air compressor in the included tyre repair kit. There are [horror stories](https://www.hondaeforums.com/viewtopic.php?t=656) about it going flat.
+
+        Fastening the driver’s seat belt makes the dialog go away. The assumption is that with the seat belt fastened, the car will charge the 12V battery.
+
+        You can even use a [loose seat belt clip](https://www.amazon.co.uk/dp/B09HXLRDC2) for convenience.
+
+        ([Source](https://www.facebook.com/groups/HondaeUK/posts/2980600845528718/?comment_id=2980869052168564). [Source](https://www.facebook.com/groups/HondaeUK/posts/2988187661436703/).)
+
+  -
+    anchor: cables-under-boot
+    title: Fit both charging cables under the boot floor
+    body: |
+        This may be more hassle than it’s worth, but it’s physically possible:
+
+        ![Photo](/images/boot_floor1.jpg)
+
+        ([Source](https://www.facebook.com/groups/HondaeUK/posts/2966766683578801/?comment_id=2966774016911401).)
+
+  -
+    anchor: slots-under-boot
+    title: Fill the empty slots under the boot floor
+    body: |
+        This first aid kid and this warning triangle (UK store) fit perfectly in the empty slots.
+
+        Or you can put the box of wheel nuts where the first aid kit would go (as in image above).
+
+        Or the wheel nut key on its own can fit next to the warning triangle (as in image below).
+
+        ![Photo](/images/boot_floor2.jpg)
+
+        ([Source](https://www.facebook.com/groups/HondaeUK/posts/2992840940971375).)
+
+  -
+    anchor: finish-driving
+    title: Finish driving
+    body: |
+        This seems to be the fewest steps:
+
+        1. Press the “POWER” button. This will automatically put the car in Park and may (see below) automatically apply the parking brake.
+        2. Leave the car.
+        3. Lock the car.
+
+        Turning the car off appears to automatically apply the parking brake if “auto brake” or “single pedal control” were on – watch for the parking brake button’s indicator light to come on. If not, engage it manually. ([Source](https://www.facebook.com/groups/HondaeUK/posts/2980600845528718/).)
+
+        You can turn on “automatic parking brake” (2000 manual, pp. 501–502) in which case it should always engage when the car is turned off. Mind the manual’s warnings: the brake can freeze in cold weather and should not be engaged for conveyor-type car washes or towing. ([Source](https://www.facebook.com/groups/HondaeUK/posts/2995961580659311/).)
