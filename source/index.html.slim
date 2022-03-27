@@ -1,4 +1,4 @@
-= image_tag "hondae.png", alt: "", class: "hero", style: "shape-outside: url('/images/hondae.png')"
+= image_tag "hondae.png", alt: "", class: "hero", style: "shape-outside: url('#{image_path("hondae.png")}')"
 
 markdown:
 
@@ -14,6 +14,15 @@ h3: a href="/troubleshooting" Troubleshooting
 ul
   - data.troubleshooting.articles.each do |a|
     li: a href="/troubleshooting##{a.anchor}" = a.title
+
+h3 Reference
+ul
+  li: a href="/charging-curve" Charging curve
+  li
+    ' EVDb specs:
+    a href="https://ev-database.uk/car/1171/Honda-e" base model
+    ' ,
+    a href="https://ev-database.uk/car/1233/Honda-e-Advance" "Advance" model
 
 h3 Learn more
 ul
