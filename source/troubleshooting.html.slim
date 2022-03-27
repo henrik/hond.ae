@@ -2,8 +2,13 @@
 title: Troubleshooting
 ---
 
+ul
+  - data.troubleshooting.articles.each do |a|
+    li: a href="##{a.anchor}" = a.title
+
+hr
+
 - data.troubleshooting.articles.each do |a|
-  article
-    a name=a.anchor
+  article id=a.anchor
     h3 = a.title
     = markdown a.body

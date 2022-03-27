@@ -1,3 +1,11 @@
+$big-space: 60px;
+$mid-space: 30px;
+
+$charge-yellow: #c4bb00;
+$light-yellow: #ffff9f;
+$light-gray: #ccc;
+
+
 body {
   background: #fff;
   color: #333;
@@ -5,7 +13,7 @@ body {
   line-height: 1.5;
   font-size: 16px;
   max-width: 40em;
-  padding: 60px 30px;
+  padding: $big-space $mid-space;
   margin: 0 auto;
 }
 
@@ -41,6 +49,10 @@ li {
 
 article {
   margin: 50px 0;
+
+  &:target h3 {
+    background: $light-yellow;
+  }
 }
 
 h1 {
@@ -49,22 +61,24 @@ h1 {
 
 h1 a {
   &, &:hover, &:focus {
-    color: #c4bb00;
+    color: $charge-yellow;
   }
 
   text-decoration: none;
 
-  &:hover { border-bottom: 2px solid #ccc; }
+  &:hover { border-bottom: 2px solid $light-gray; }
 }
 
-.toc {
-  margin-top: 30px;
-  border-top: 1px solid #ccc;
-  padding-top: 30px;
+hr {
+  margin-top: $mid-space;
+  border: 0;
+  height: 1px;
+  background: $light-gray;
+  margin-bottom: $mid-space;
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: $big-space;
   opacity: 0.6;
   font-size: 14px;
 }
