@@ -10,10 +10,15 @@ markdown:
 
 hr
 
+h3: a href="/new-owner" Things a new owner should know
+ul
+  - data.new_owner.articles.each do |a|
+    li: a href="/new-owner##{a.anchor}" = inline_markdown(a.title)
+
 h3: a href="/troubleshooting" Troubleshooting
 ul
   - data.troubleshooting.articles.each do |a|
-    li: a href="/troubleshooting##{a.anchor}" = a.title
+    li: a href="/troubleshooting##{a.anchor}" = inline_markdown(a.title)
 
 h3 Reference
 ul

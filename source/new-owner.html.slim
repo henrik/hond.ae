@@ -1,14 +1,14 @@
 ---
-title: Troubleshooting
+title: Things a new owner should know
 ---
 
 ul
-  - data.troubleshooting.articles.each do |a|
+  - data.new_owner.articles.each do |a|
     li: a href="##{a.anchor}" = inline_markdown(a.title)
 
 hr
 
-- data.troubleshooting.articles.each do |a|
+- data.new_owner.articles.each do |a|
   article id=a.anchor
     h3 = inline_markdown(a.title)
     = markdown a.body

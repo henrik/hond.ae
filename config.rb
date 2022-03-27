@@ -39,6 +39,10 @@ helpers do
   def markdown(text)
     Kramdown::Document.new(text).to_html
   end
+
+  def inline_markdown(text)
+    markdown(text).strip.sub(%r{<p>(.*)</p>}m, '\1')
+  end
 end
 
 # Build-specific configuration
