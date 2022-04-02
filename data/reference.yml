@@ -4,14 +4,14 @@ articles:
     anchor: tyres
     title: Tyre pressure
     body: |
-      Please double-check these numbers by looking at the label on the driver-side door jamb.
+      Please double-check these numbers against the label on the driver-side door jamb.
 
       <a href="/images/tyre_pressure.jpg">
         <img src="/images/tyre_pressure.jpg" alt="" />
       </a>
 
-      - 16" wheels: ? ([let me know](https://henrik.nyh.se))
-      - 17" wheels: 230 kPa / 2.3 bar / 33 psi
+      - 16" wheels: 240 kPa / 2.4 bar / 35 psi ([source](https://www.hondaeforums.com/viewtopic.php?p=6291#p6291))
+      - 17" wheels: 230 kPa / 2.3 bar / 33 psi (source: photo above)
 
       The pressure is the same front and back since the car has a 50/50 weight distribution.
 
