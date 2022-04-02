@@ -1,6 +1,13 @@
 articles:
 
   -
+    anchor: checklist
+    title: Collection checklist
+    body: |
+      - Check that the top of the hood is not chipped from someone [lifting the wipers wrong](#do-not-lift-wipers).
+      - Confirm that the dealer has [changed the telematics SIM status](https://www.hondaeforums.com/viewtopic.php?p=2878#p2878) or the app might not work.
+
+  -
     anchor: do-not-lift-wipers
     title: Don’t lift the wipers
     body: |
