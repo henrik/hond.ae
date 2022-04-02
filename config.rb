@@ -13,6 +13,10 @@ page "/*.xml", layout: false
 page "/*.json", layout: false
 page "/*.txt", layout: false
 
+redirect "charging-curve/index.html", to: "/reference/#charging-curve"
+redirect "paint/index.html", to: "/reference/#paint"
+redirect "safety/index.html", to: "/reference/#safety"
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
