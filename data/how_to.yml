@@ -55,17 +55,19 @@ articles:
 
   -
     anchor: remote-windows
-    title: Open or close windows using the keyless remote
+    title: Use the keyless remote to open or close windows
     body: |
         To open, press the unlock button, release, then within 10 seconds press it again and hold it.
 
         To close, press the lock button, release, then within 10 seconds press it again and hold it.
 
+        The windows move while you hold the button and stop when you release it. The back windows never open fully.
+
         (2020 manual, p. 196.)
 
   -
     anchor: remote-precon
-    title: Turn on climate pre-conditioning using the keyless remote
+    title: Use the keyless remote for climate pre-conditioning
     body: |
         To turn it on, press the lock button (exterior lights will flash). Within 5 seconds, press and hold the climate button (fan icon) for a few seconds until exterior lights flash 6 times.
 
