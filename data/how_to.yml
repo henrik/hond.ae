@@ -46,6 +46,34 @@ articles:
         You can press the Single Pedal Control button to turn off cruise control and re-activate Single Pedal Control at the same time (though you’ll get an angry beep).
 
   -
+    anchor: carplay-screenshot
+    title: Take a screenshot in CarPlay
+    body: |
+        Take a screenshot on your connected phone and you will also get one for the CarPlay screen.
+
+        Note that this does not let you take screenshots of the non-CarPlay parts of the infotainment system.
+
+  -
+    anchor: remote-windows
+    title: Open or close windows using the keyless remote
+    body: |
+        To open, press the unlock button, release, then within 10 seconds press it again and hold it.
+
+        To close, press the lock button, release, then within 10 seconds press it again and hold it.
+
+        (2020 manual, p. 196.)
+
+  -
+    anchor: remote-precon
+    title: Turn on climate pre-conditioning using the keyless remote
+    body: |
+        To turn it on, press the lock button (exterior lights will flash). Within 5 seconds, press and hold the climate button (fan icon) for a few seconds until exterior lights flash 6 times.
+
+        To turn it off, press and hold the climate button (fan icon). Exterior lights will flash.
+
+        (2020 manual, p. 250.)
+
+  -
     anchor: avoid-flat-12v
     title: Avoid the 12V battery running flat
     body: |
@@ -97,4 +125,4 @@ articles:
 
         Turning the car off appears to automatically apply the parking brake *if* “auto brake” or “single pedal control” were on – watch for the parking brake button’s indicator light to come on. If not, engage it manually. ([Source](https://www.facebook.com/groups/HondaeUK/posts/2980600845528718/).)
 
-        You can turn on “automatic parking brake” (2000 manual, pp. 501–502) in which case it should always engage when the car is turned off. Mind the manual’s warnings: the brake can freeze in cold weather and should not be engaged for conveyor-type car washes or towing. ([Source](https://www.facebook.com/groups/HondaeUK/posts/2995961580659311/).)
+        You can turn on “automatic parking brake” (2020 manual, pp. 501–502) in which case it should always engage when the car is turned off. Mind the manual’s warnings: the brake can freeze in cold weather and should not be engaged for conveyor-type car washes or towing. ([Source](https://www.facebook.com/groups/HondaeUK/posts/2995961580659311/).)
