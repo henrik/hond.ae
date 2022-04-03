@@ -40,7 +40,7 @@ articles:
     body: |
         Go to General Settings > System > Passenger App Launcher.
 
-        It can be changed to always be hidden, or to automatically show only if the pasenger seat is occupied.
+        It can be changed to always be hidden, or to automatically show only if the passenger seat is occupied.
 
   -
     anchor: turn-off-climate-feedback
