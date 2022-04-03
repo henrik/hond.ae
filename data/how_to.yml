@@ -10,8 +10,37 @@ articles:
     anchor: set-bg
     title: Set a custom background image
     body: |
-        See [this forum thread](https://www.hondaeforums.com/viewtopic.php?f=8&t=255) for format specifics, templates etc.
+        Make an image:
 
+        - Ideally 3840 * 720 pixels. (Max 4096 * 2304.)
+          - 578 pixels on either side will be covered by the "app launchers", with a transparency gradient, though you can [hide the passenger-side app launcher](#hide-passenger-launcher).
+          - The wallpaper is split over two displays with a 60 pixel central black bar. ([Source](https://www.hondaeforums.com/viewtopic.php?p=4899#p4899).) If you want the appearance of the wallpaper continuing behind the bar, make a 3900 * 720 pixel image and crop out the middle 60 pixels.
+        - Less than 10 MB.
+        - BMP (`.bmp`) or JPEG (`.jpg`).
+        - File name max 64 bytes long.
+
+        You can use a ready-made template to get the dimensions right:
+
+        - [Template for Adobe Photoshop](https://www.hondaeforums.com/viewtopic.php?p=5973#p5973). Does not include the central bar.
+        - [Template for Pixelmator Pro](https://www.hondaeforums.com/viewtopic.php?p=11087#p11087). Includes the central bar and an AppleScript to automatically crop it out.
+
+        Put the image *at the root* of a USB drive.
+
+        Connect the drive to the data-enabled front USB port (not the one with a battery icon).
+
+        Go to General Settings > Display > Wallpaper to import or switch wallpaper.
+
+        (2020 manual, pp. 272–273.)
+
+        See [this forum thread](https://www.hondaeforums.com/viewtopic.php?t=255) for inspiration and ready-made images.
+
+  -
+    anchor: hide-passenger-launcher
+    title: Hide the passenger-side app launcher
+    body: |
+        Go to General Settings > System > Passenger App Launcher.
+
+        It can be changed to always be hidden, or to automatically show only if the pasenger seat is occupied.
 
   -
     anchor: turn-off-climate-feedback
