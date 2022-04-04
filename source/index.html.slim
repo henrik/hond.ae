@@ -31,6 +31,9 @@ ul
     li: a href="/troubleshooting##{a.anchor}" = inline_markdown(a.title)
 
 h3: a href="/products" Accessories, parts and products
+ul
+  - data.products.articles.each do |a|
+    li: a href="/products##{a.anchor}" = inline_markdown(a.title)
 
 h3: a href="/reference" Reference
 ul
