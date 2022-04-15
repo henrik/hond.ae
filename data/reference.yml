@@ -1,6 +1,24 @@
 articles:
 
   -
+    anchor: measurements
+    title: Internal measurements
+    body: |
+      Measurements are approximate and may depend on seat positions.
+
+      <a href="/images/measurements-boot.jpg">
+        <img src="/images/measurements-boot.jpg" alt="Boot measurements" />
+      </a>
+
+      <a href="/images/measurements-folded.jpg">
+        <img src="/images/measurements-folded.jpg" alt="Boot measurements with folded seats" />
+      </a>
+
+      <a href="/images/measurements-backseat.jpg">
+        <img src="/images/measurements-backseat.jpg" alt="Back seat measurements" />
+      </a>
+
+  -
     anchor: tyres
     title: Tyre pressure
     body: |
