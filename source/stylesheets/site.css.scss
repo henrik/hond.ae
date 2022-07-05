@@ -100,12 +100,13 @@ h1 a {
 
 h3 {
   .anchor-link {
-    opacity: 0;
+    display: none;
     text-decoration: underline;
     margin-left: 0.5em;
   }
 
   &:hover .anchor-link {
+    display: inline;
     opacity: 0.5;
   }
 }
