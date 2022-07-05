@@ -81,14 +81,6 @@ articles:
         You can press the Single Pedal Control button to turn off cruise control and re-activate Single Pedal Control at the same time (though you’ll get an angry beep).
 
   -
-    anchor: carplay-screenshot
-    title: Take a screenshot in CarPlay
-    body: |
-        Take a screenshot on your connected phone and you will also get one for the CarPlay screen.
-
-        Note that this does not let you take screenshots of the non-CarPlay parts of the infotainment system.
-
-  -
     anchor: remote-windows
     title: Use the keyless remote to open or close windows
     body: |
