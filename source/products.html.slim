@@ -11,6 +11,4 @@ hr
 p These links are not sponsored or affiliate.
 
 - data.products.articles.each do |a|
-  article id=a.anchor
-    h3 = inline_markdown(a.title)
-    = markdown a.body
+  = partial("article", locals: { article: a })

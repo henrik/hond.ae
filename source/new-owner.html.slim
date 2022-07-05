@@ -9,6 +9,4 @@ ul
 hr
 
 - data.new_owner.articles.each do |a|
-  article id=a.anchor
-    h3 = inline_markdown(a.title)
-    = markdown a.body
+  = partial("article", locals: { article: a })
