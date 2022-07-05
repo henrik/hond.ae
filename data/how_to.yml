@@ -21,8 +21,11 @@ articles:
 
         You can use a ready-made template to get the dimensions right:
 
-        - [Template for Adobe Photoshop](https://www.hondaeforums.com/viewtopic.php?p=5973#p5973). Does not include the central bar.
-        - [Template for Pixelmator Pro](https://www.hondaeforums.com/viewtopic.php?p=11087#p11087). Includes the central bar and an AppleScript to automatically crop it out.
+        - Adobe Photoshop
+          - [Template](https://www.hondaeforums.com/viewtopic.php?p=5973#p5973) that doesn't account for the central bar.
+          - [Template](https://www.hondaeforums.com/viewtopic.php?p=12978#p12978) that crops out the central bar.
+        - Pixelmator Pro
+          - [Template and AppleScript](https://www.hondaeforums.com/viewtopic.php?p=11087#p11087) that crop out the central bar.
 
         Put the image *at the root* of a USB drive.
 
