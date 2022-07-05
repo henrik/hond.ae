@@ -41,11 +41,20 @@ helpers do
   end
 
   def markdown(text)
+    text = text.gsub(/\[\[manual (\d+)(?:–(\d+))?\]\]/) { link_to_manual($1.to_i.nonzero?, $2.to_i.nonzero?) }
     Kramdown::Document.new(text).to_html
   end
 
   def inline_markdown(text)
     markdown(text).strip.sub(%r{<p>(.*)</p>}m, '\1')
+  end
+
+  # Always link to the 2020 manual since the 2021 manual has some broken images, at least on some platforms.
+  def link_to_manual(first_page, last_page)
+    text = "2020 manual, #{last_page ? "pp. #{first_page}–#{last_page}" : "p. #{first_page}"}"
+    url = "https://www.honda.co.uk/cars/owners/manuals-and-guides/honda-owners-manuals/_jcr_content/par1/textcolumnwithimagem_2131108407/textColumn/richtextdownload_8ec/file.res/32TYF6010_web%20EN_compressed.pdf#page=#{first_page + 1}"
+
+    link_to(text, url)
   end
 end
 
