@@ -49,6 +49,12 @@ articles:
         When you use climate controls, the screen will show what you did for a few seconds. This can be annoying since it covers whatever the screen was showing previously – like satnav. See [this forum post](https://www.hondaeforums.com/viewtopic.php?p=5435#p5435) for how to turn it off.
 
   -
+    anchor: show-warning-messages
+    title: Show warning messages as text (not just icons)
+    body: |
+        Open the car's "Vehicle Settings" app, then choose "Meter setup". Change "Warning message" to "ON".
+
+  -
     anchor: play-pause-buttons
     title: Play/pause music via physical buttons
     body: |
