@@ -44,6 +44,12 @@ li {
   margin: 0.5em 0;
 }
 
+li img {
+  max-height: 1.25em;
+  display: inline;
+  vertical-align: middle;
+}
+
 @keyframes slide {
   from {
     opacity: 0;

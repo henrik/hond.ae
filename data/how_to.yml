@@ -49,7 +49,27 @@ articles:
     anchor: turn-off-climate-feedback
     title: Turn off the feedback display for climate controls
     body: |
-        When you use climate controls, the screen will show what you did for a few seconds. This can be annoying since it covers whatever the screen was showing previously – like satnav. See [this forum post](https://www.hondaeforums.com/viewtopic.php?p=5435#p5435) for how to turn it off.
+        When you use climate controls, the screen will show an overlay for a few seconds, which can get in the way of e.g. satnav.
+
+        To turn it off:
+
+        1. Put the car into "ready to drive" mode.
+        2. On the climate control system:
+             - Turn the temperature down to "Lo".
+             - Press "MODE" until it shows ![Air flows from floor and dashboard vents](/images/icon-vents.png).
+             - Turn on ![](/images/icon-recirculation.png) recirculation.
+             - Press "ON/OFF" to turn off the climate control system.
+        3. Turn the car off.
+        4. On the climate control system, press and hold both "MODE" and the recirculation button.
+        5. While keeping the buttons pressed, put the car into "ready to drive" mode.
+        6. Keep the buttons pressed until the AC display shows "19.0" (first it shows "31.0"), then release them.
+
+        To switch the feedback display back on, repeat the steps above, except:
+
+        - In step 2, turn the temperature up to "Hi".
+        - In step 6, wait for the display to show "31.0", then release the buttons.
+
+        ([Source](https://www.hondaeforums.com/viewtopic.php?p=5435#p5435).)
 
   -
     anchor: show-warning-messages
