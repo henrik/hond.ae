@@ -100,6 +100,16 @@ articles:
         ([Source](https://www.facebook.com/groups/HondaeUK/posts/2979838652271604/).)
 
   -
+    anchor: skip-songs-as-passenger
+    title: Skip songs from the passenger seat
+    body: |
+        Open the car's audio information screen, e.g. by tapping the current song name at the top of the screen while playing audio.
+
+        Use the Screen Switch icon to put it on the passenger screen if it's not already there.
+
+        Now the passenger can skip songs from this screen while the driver uses their screen for e.g. navigation.
+
+  -
     anchor: hdmi-while-driving
     title: Enable HDMI while driving
     body: |
