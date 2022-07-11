@@ -34,6 +34,8 @@ articles:
     body: |
         The car knows to apply the “home” charging schedule by checking the “home” location you’ve set in the built-in satnav. If you don’t set one, it won’t apply this schedule.
 
+        For how to set it, see [the navigation manual, p. 18](https://www.honda.co.uk/cars/owners/manuals-and-guides/honda-owners-manuals/_jcr_content/par1/textcolumnwithimagem_2131108407/textColumn/richtextdownload_cc1/file.res/32TYF800_Navigation%20Book.pdf#page=18).
+
   -
     anchor: charging-schedule
     title: "The \"Charging Wait Time Schedule\" sets the period when *not* to charge"
