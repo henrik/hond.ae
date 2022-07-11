@@ -78,6 +78,18 @@ articles:
         Open the car's "Vehicle Settings" app, then choose "Meter setup". Change "Warning message" to "ON".
 
   -
+    anchor: directions-on-dashboard
+    title: See turn-by-turn directions on the instrument panel
+    body: |
+        You need to use a supported app to see turn-by-turn directions on the display in front of the driver.
+
+        Either use the built-in navigation, or Apple Maps via CarPlay, or Google Maps via Android Auto.
+
+        Directions will show just in time as they become relevant. To show them permanently, switch to "Navigation" using the left selector wheel on the steering wheel.
+
+        ([Source](https://www.facebook.com/groups/HondaeUK/posts/3100048250250643/?__cft__[0]=AZXMOmTfjw9egGH8lJuVgpRds4hAKdn74dKIUYLRD0FExAOWix3mXAftprZYtjGCXc-chRjTfTynMB0PKgcriitozkF4XhJVq1xMb31XkPdwoZoSnnM-Yao-iIoCnFuPD90&__tn__=%2CO%2CP-R).)
+
+  -
     anchor: play-pause-buttons
     title: Play/pause music via physical buttons
     body: |
