@@ -15,6 +15,12 @@ articles:
         Restart the charge while gently pushing the plug forward and upward, into the socket. This may help the charger’s lock pin engage. This issue has been seen e.g. with Engie/GeniePoint chargers and certain InstaVolt chargers.
 
   -
+    anchor: will-not-lock
+    title: The car won't lock
+    body: |
+        If the car won't lock and makes 4 beeps, a key may still be in the car. Take the key out. ([Source](https://www.facebook.com/groups/HondaeUK/posts/3187757628146371/?comment_id=3187758351479632).)
+
+  -
     anchor: ac-or-demisting-issues
     title: Issues with AC air flow or demisting
     body: |
