@@ -118,6 +118,11 @@ h3 {
   }
 }
 
+.page-name-link {
+  text-decoration: none;
+  border-bottom: 1px solid $light-gray;
+}
+
 p.go-home {
   margin-top: -1.2em;
 
