@@ -4,6 +4,7 @@ $small-space: 20px;
 
 $charge-yellow: #c4bb00;
 $light-yellow: #ffff9f;
+$gray: #aaa;
 $light-gray: #ccc;
 
 @mixin large-display {
@@ -114,6 +115,14 @@ h3 {
   &:hover .anchor-link {
     display: inline;
     opacity: 0.5;
+  }
+}
+
+p.go-home {
+  margin-top: -1.2em;
+
+  a {
+    color: $gray;
   }
 }
 

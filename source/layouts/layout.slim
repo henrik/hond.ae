@@ -11,6 +11,10 @@ html
     h1
       a href="/" = site_title
 
+    - if current_page.destination_path != "index.html"
+      p.go-home
+        a href="/" Back to table of contents
+
     - if current_page.data.title
       h2 = current_page.data.title
 
