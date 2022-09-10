@@ -2,11 +2,4 @@
 title: Troubleshooting
 ---
 
-ul
-  - data.troubleshooting.articles.each do |a|
-    li: a href="##{a.anchor}" = inline_markdown(a.title)
-
-hr
-
-- data.troubleshooting.articles.each do |a|
-  = partial("article", locals: { article: a })
+= partial("page", locals: { page_data: data.troubleshooting })

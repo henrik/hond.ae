@@ -1,6 +1,0 @@
-article id=article.anchor
-  h3
-    = inline_markdown(article.title)
-    '
-    = link_to("§", "##{article.anchor}", class: "anchor-link")
-  = markdown(article.body)

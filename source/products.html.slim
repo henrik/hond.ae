@@ -2,13 +2,4 @@
 title: Accessories, parts and products
 ---
 
-ul
-  - data.products.articles.each do |a|
-    li: a href="##{a.anchor}" = inline_markdown(a.title)
-
-hr
-
-p These links are not sponsored or affiliate.
-
-- data.products.articles.each do |a|
-  = partial("article", locals: { article: a })
+= partial("page", locals: { page_data: data.products, intro: "These links are not sponsored or affiliate." })

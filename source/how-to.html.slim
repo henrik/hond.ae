@@ -2,11 +2,4 @@
 title: How to…
 ---
 
-ul
-  - data.how_to.articles.each do |a|
-    li: a href="##{a.anchor}" = inline_markdown(a.title)
-
-hr
-
-- data.how_to.articles.each do |a|
-  = partial("article", locals: { article: a })
+= partial("page", locals: { page_data: data.how_to })
