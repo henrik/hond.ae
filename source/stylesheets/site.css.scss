@@ -121,6 +121,14 @@ h3 {
   }
 }
 
+h3, li {
+  img {
+    max-height: 1em;
+    display: inline;
+    vertical-align: text-top;
+  }
+}
+
 .page-name-link {
   text-decoration: none;
   border-bottom: 1px solid $light-gray;
