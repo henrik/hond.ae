@@ -1,5 +1,205 @@
 ---
 title: How to…
----
+articles:
 
-= partial("page", locals: { page_data: data.how_to })
+  -
+    anchor: pop-out-handle
+    title: Pop out the passenger-side door handle from the driver’s seat
+    body: |
+        Press the “unlock” button on the inside of your door.
+
+  -
+    anchor: set-bg
+    title: Set a custom background image
+    body: |
+        Make an image:
+
+        - Ideally 3840 * 720 pixels. (Max 4096 * 2304.)
+          - 578 pixels on either side will be covered by the "app launchers", with a transparency gradient, though you can [hide the passenger-side app launcher](#hide-passenger-launcher).
+          - The wallpaper is split over two displays with a 60 pixel central black bar. ([Source](https://www.hondaeforums.com/viewtopic.php?p=4899#p4899).) If you want the appearance of the wallpaper continuing behind the bar, make a 3900 * 720 pixel image and crop out the middle 60 pixels.
+        - Less than 10 MB.
+        - BMP (`.bmp`) or JPEG (`.jpg`).
+        - File name max 64 bytes long.
+
+        You can use a ready-made template to get the dimensions right:
+
+        - Adobe Photoshop
+          - [Template](https://www.hondaeforums.com/viewtopic.php?p=5973#p5973) that doesn't account for the central bar.
+          - [Template](https://www.hondaeforums.com/viewtopic.php?p=12978#p12978) that crops out the central bar.
+        - Pixelmator Pro
+          - [Template and AppleScript](https://www.hondaeforums.com/viewtopic.php?p=11087#p11087) that crop out the central bar.
+
+        Put the image *at the root* of a USB drive.
+
+        Connect the drive to the data-enabled front USB port (not the one with a battery icon).
+
+        Go to General Settings > Display > Wallpaper to import or switch wallpaper.
+
+        ([[manual 272–273]].)
+
+        See [this forum thread](https://www.hondaeforums.com/viewtopic.php?t=255) for inspiration and ready-made images.
+
+  -
+    anchor: hide-passenger-launcher
+    title: Hide the passenger-side app launcher
+    body: |
+        Go to General Settings > System > Passenger App Launcher.
+
+        It can be changed to always be hidden, or to automatically show only if the passenger seat is occupied.
+
+  -
+    anchor: turn-off-climate-feedback
+    title: Turn off the feedback display for climate controls
+    body: |
+        When you use climate controls, the screen will show an overlay for a few seconds, which can get in the way of e.g. satnav.
+
+        To turn it off:
+
+        1. Put the car into "ready to drive" mode.
+        2. On the climate control system:
+             - Turn the temperature down to "Lo".
+             - Press "MODE" until it shows ![Air flows from floor and dashboard vents](/images/icon-vents.png).
+             - Turn on ![](/images/icon-recirculation.png) recirculation.
+             - Press "ON/OFF" to turn off the climate control system.
+        3. Turn the car off.
+        4. On the climate control system, press and hold both "MODE" and the recirculation button.
+        5. While keeping the buttons pressed, put the car into "ready to drive" mode.
+        6. Keep the buttons pressed until the AC display shows "19.0" (first it shows "31.0"), then release them.
+
+        To switch the feedback display back on, repeat the steps above, except:
+
+        - In step 2, turn the temperature up to "Hi".
+        - In step 6, wait for the display to show "31.0", then release the buttons.
+
+        ([Source](https://www.hondaeforums.com/viewtopic.php?p=5435#p5435).)
+
+  -
+    anchor: show-warning-messages
+    title: Show warning messages as text (not just icons)
+    body: |
+        Open the car's "Vehicle Settings" app, then choose "Meter setup". Change "Warning message" to "ON".
+
+  -
+    anchor: directions-on-dashboard
+    title: See turn-by-turn directions on the instrument panel
+    body: |
+        You need to use a supported app to see turn-by-turn directions on the display in front of the driver.
+
+        Either use the built-in navigation, or Apple Maps via CarPlay, or Google Maps via Android Auto.
+
+        Directions will show just in time as they become relevant. To show them permanently, switch to "Navigation" using the left selector wheel on the steering wheel.
+
+        ([Source](https://www.facebook.com/groups/HondaeUK/posts/3100048250250643/?__cft__[0]=AZXMOmTfjw9egGH8lJuVgpRds4hAKdn74dKIUYLRD0FExAOWix3mXAftprZYtjGCXc-chRjTfTynMB0PKgcriitozkF4XhJVq1xMb31XkPdwoZoSnnM-Yao-iIoCnFuPD90&__tn__=%2CO%2CP-R).)
+
+  -
+    anchor: play-pause-buttons
+    title: Play/pause music via physical buttons
+    body: |
+        The “⏻ AUDIO” button on the dashboard will effectively play/pause music. On wireless CarPlay, you will lose a few seconds when you un-pause.
+
+        To play/pause CarPlay from the steering wheel, you can select “Audio” and then scroll the wheel to some other input like Bluetooth and select it to pause. Scroll back to CarPlay to resume.
+
+        ([Source](https://www.facebook.com/groups/HondaeUK/posts/2979838652271604/).)
+
+  -
+    anchor: skip-songs-as-passenger
+    title: Skip songs from the passenger seat
+    body: |
+        Open the car's audio information screen, e.g. by tapping the current song name at the top of the screen while playing audio.
+
+        Use the Screen Switch icon to put it on the passenger screen if it's not already there.
+
+        Now the passenger can skip songs from this screen while the driver uses their screen for e.g. navigation.
+
+  -
+    anchor: hdmi-while-driving
+    title: Enable HDMI while driving
+    body: |
+        Normally you can’t play HDMI video while driving, but this can be enabled via a secret diagnostics menu – though it resets when the car is restarted.
+
+        Don’t watch video while driving! Only use this for the benefit of passengers.
+
+        [This video](https://www.youtube.com/watch?v=dB_NJ2xRQag) shows how to do it. Also see [the forum discussion](https://www.hondaeforums.com/viewtopic.php?t=365).
+
+  -
+    anchor: cc-into-single-pedal
+    title: Turn off cruise control and re-activate Single Pedal Control
+    body: |
+        You can press the Single Pedal Control button to turn off cruise control and re-activate Single Pedal Control at the same time (though you’ll get an angry beep).
+
+  -
+    anchor: remote-windows
+    title: Use the keyless remote to open or close windows
+    body: |
+        To open, press the unlock button, release, then within 10 seconds press it again and hold it.
+
+        To close, press the lock button, release, then within 10 seconds press it again and hold it.
+
+        The windows move while you hold the button and stop when you release it. The back windows never open fully.
+
+        ([[manual 196]].)
+
+  -
+    anchor: remote-precon
+    title: Use the keyless remote for climate pre-conditioning
+    body: |
+        To turn it on, press the lock button (exterior lights will flash). Within 5 seconds, press and hold the climate button (fan icon) for a few seconds until exterior lights flash 6 times.
+
+        To turn it off, press and hold the climate button (fan icon). Exterior lights will flash.
+
+        ([[manual 250]].)
+
+  -
+    anchor: avoid-flat-12v
+    title: Avoid the 12V battery running flat
+    body: |
+        Keep the driver’s seat belt fastened if you leave the car on when stopped.
+
+        If the seat belt is not fastened, after a while the car will show this dialog: "The vehicle automatically turns OFF to save battery power after a while. Do you want to cancel this function? Yes / No".
+
+        Presumably this is about preserving the 12V battery which powers e.g. the infotainment system and the 12V socket used for the air compressor in the included tyre repair kit. There are [horror stories](https://www.hondaeforums.com/viewtopic.php?t=656) about it going flat.
+
+        Fastening the driver’s seat belt makes the dialog go away. The assumption is that with the seat belt fastened, the car will charge the 12V battery.
+
+        You can even use a [loose seat belt clip](https://www.amazon.co.uk/dp/B09HXLRDC2) for convenience.
+
+        ([Source](https://www.facebook.com/groups/HondaeUK/posts/2980600845528718/?comment_id=2980869052168564). [Source](https://www.facebook.com/groups/HondaeUK/posts/2988187661436703/).)
+
+  -
+    anchor: cables-under-boot
+    title: Fit both charging cables under the boot floor
+    body: |
+        This may be more hassle than it’s worth, but it’s physically possible:
+
+        ![Photo](/images/boot_floor1.jpg)
+
+        ([Source](https://www.facebook.com/groups/HondaeUK/posts/2966766683578801/?comment_id=2966774016911401).)
+
+  -
+    anchor: slots-under-boot
+    title: Fill the empty slots under the boot floor
+    body: |
+        [This first aid kid](https://hondadirectparts.co.uk/parts/honda-jazz-genuine-parts/honda-jazz-2020-currect-first-aid-kit/) and [this warning triangle](https://hondadirectparts.co.uk/parts/honda-e/accessories-honda-e/honda-warning-triangle/) (UK store) fit perfectly in the empty slots.
+
+        Or you can put the box of wheel nuts where the first aid kit would go (as in image above).
+
+        Or the wheel nut key on its own can fit next to the warning triangle (as in image below).
+
+        ![Photo](/images/boot_floor2.jpg)
+
+        ([Source](https://www.facebook.com/groups/HondaeUK/posts/2992840940971375).)
+
+  -
+    anchor: finish-driving
+    title: Finish driving
+    body: |
+        This seems to be the fewest steps:
+
+        1. Press the “POWER” button. This will automatically put the car in Park and *may* (see below) automatically apply the parking brake.
+        2. Leave the car.
+        3. Lock the car.
+
+        Turning the car off appears to automatically apply the parking brake *if* “auto brake” or “single pedal control” were on – watch for the parking brake button’s indicator light to come on. If not, engage it manually. ([Source](https://www.facebook.com/groups/HondaeUK/posts/2980600845528718/).)
+
+        You can turn on “automatic parking brake” ([[manual 501–502]]) in which case it should always engage when the car is turned off. Mind the manual’s warnings: the brake can freeze in cold weather and should not be engaged for conveyor-type car washes or towing. ([Source](https://www.facebook.com/groups/HondaeUK/posts/2995961580659311/).)
+---

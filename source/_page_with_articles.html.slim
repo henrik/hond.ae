@@ -1,13 +1,13 @@
 ul
-  - page_data.articles.each do |a|
+  - current_page.data.articles.each do |a|
     li: a href="##{a.anchor}" = inline_markdown(a.title)
 
 hr
 
-- if locals[:intro]
-  p = intro
+- if current_page.data.intro
+  p = current_page.data.intro
 
-- page_data.articles.each do |article|
+- current_page.data.articles.each do |article|
   article id=article.anchor
     h3
       = inline_markdown(article.title)

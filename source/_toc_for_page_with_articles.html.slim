@@ -1,0 +1,7 @@
+- resource = sitemap.find_resource_by_page_id(id)
+- path = "/#{id}"
+
+h3: a.page-name-link href=path = resource.data.title
+ul
+  - resource.data.articles.each do |a|
+    li: a href="#{path}##{a.anchor}" = inline_markdown(a.title)

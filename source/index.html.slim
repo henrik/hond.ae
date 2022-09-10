@@ -8,35 +8,15 @@ markdown:
 
 hr
 
-h3: a.page-name-link href="/prospective-owner" Things a prospective owner should know
-ul
-  - data.prospective_owner.articles.each do |a|
-    li: a href="/prospective-owner##{a.anchor}" = inline_markdown(a.title)
-
-h3: a.page-name-link href="/new-owner" Things a new owner should know
-ul
-  - data.new_owner.articles.each do |a|
-    li: a href="/new-owner##{a.anchor}" = inline_markdown(a.title)
-
-h3: a.page-name-link href="/how-to" How to…
-ul
-  - data.how_to.articles.each do |a|
-    li: a href="/how-to##{a.anchor}" = inline_markdown(a.title)
-
-h3: a.page-name-link href="/troubleshooting" Troubleshooting
-ul
-  - data.troubleshooting.articles.each do |a|
-    li: a href="/troubleshooting##{a.anchor}" = inline_markdown(a.title)
-
-h3: a.page-name-link href="/reference" Reference
-ul
-  - data.reference.articles.each do |a|
-    li: a href="/reference##{a.anchor}" = inline_markdown(a.title)
-
-h3: a.page-name-link href="/products" Accessories, parts and products
-ul
-  - data.products.articles.each do |a|
-    li: a href="/products##{a.anchor}" = inline_markdown(a.title)
+- [\
+    :"prospective-owner",
+    :"new-owner",
+    :"how-to",
+    :troubleshooting,
+    :reference,
+    :products,
+  ].each do |id|
+  = partial("toc_for_page_with_articles", locals: { id: })
 
 h3 Learn more
 ul

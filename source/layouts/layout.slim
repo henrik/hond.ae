@@ -1,11 +1,13 @@
+- 
 doctype html
 html
   head
     meta charset="utf-8"
     meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    title = [ current_page.data.title, site_title ].compact.join(" – ")
+    title = [ page_title, site_title ].compact.join(" – ")
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
+
   body
 
     h1
@@ -15,8 +17,11 @@ html
       p.go-home
         a href="/" Back to table of contents
 
-    - if current_page.data.title
-      h2 = current_page.data.title
+    - if page_title
+      h2 = page_title
+
+    - if current_page.data.articles
+      = partial("page_with_articles")
 
     = yield
 

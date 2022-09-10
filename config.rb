@@ -40,6 +40,10 @@ helpers do
     "Honda e Knowledge Base"
   end
 
+  def page_title
+    current_page.data.title
+  end
+
   def markdown(text)
     text = text.gsub(/\[\[manual (\d+)(?:–(\d+))?\]\]/) { link_to_manual($1.to_i.nonzero?, $2.to_i.nonzero?) }
     Kramdown::Document.new(text).to_html
