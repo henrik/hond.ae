@@ -45,7 +45,7 @@ helpers do
   end
 
   def og_description
-    current_page.data.og_description || "Tips and resources for owners and prospective owners of the Honda e."
+    current_page.data.og_description || "Tips and resources for owners (and prospective owners!) of the Honda e."
   end
 
   def markdown(text)
