@@ -44,6 +44,10 @@ helpers do
     current_page.data.title
   end
 
+  def og_description
+    current_page.data.og_description || "Tips and resources for owners and prospective owners of the Honda e."
+  end
+
   def markdown(text)
     text = text.gsub(/\[\[manual (\d+)(?:–(\d+))?\]\]/) { link_to_manual($1.to_i.nonzero?, $2.to_i.nonzero?) }
     Kramdown::Document.new(text).to_html
