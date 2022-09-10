@@ -67,6 +67,9 @@ li img {
   width: 24em;
   shape-margin: 0.5em;
 
+  // Transparent parts could overlay text and make links unclickable.
+  z-index: -1;
+
   margin: 2em auto;
 
   position: relative;
