@@ -19,15 +19,19 @@ html
     h1
       a href="/" = site_title
 
-    - if current_page.destination_path != "index.html"
-      p.go-home
-        a href="/" Back to table of contents
+    - unless home_page?
+      p.go-home--top
+        a href="/" Back to the table of contents
 
     - if page_title
       h2 = page_title
 
     - if current_page.data.articles
       = partial("page_with_articles")
+
+      - unless home_page?
+        p.go-home--bottom
+          a href="/" Back to the table of contents.
 
     = yield
 

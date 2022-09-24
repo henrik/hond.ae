@@ -40,6 +40,10 @@ helpers do
     "Honda e Knowledge Base"
   end
 
+  def home_page?
+    current_page.destination_path == "index.html"
+  end
+
   def page_title
     current_page.data.title
   end

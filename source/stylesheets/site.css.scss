@@ -134,12 +134,17 @@ h3, li {
   border-bottom: 1px solid $light-gray;
 }
 
-p.go-home {
+p.go-home--top {
   margin-top: -1.2em;
 
   a {
     color: $gray;
   }
+}
+
+p.go-home--bottom {
+  margin-top: 2em;
+  text-align: center;
 }
 
 hr {
