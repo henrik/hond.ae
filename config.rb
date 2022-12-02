@@ -4,6 +4,7 @@ require "slim"
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 activate :directory_indexes
+activate :asset_hash
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
