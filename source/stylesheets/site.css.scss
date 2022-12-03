@@ -54,12 +54,12 @@ li img {
 @keyframes slide {
   from {
     opacity: 0;
-    right: -200px;
+    transform: translateX(200px);
   }
 
   to {
-    opacity: 100%;
-    right: 0;
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
