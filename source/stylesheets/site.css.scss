@@ -97,9 +97,15 @@ li img {
     width: 100%;
     height: 100%;
 
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
-    animation-name: slide;
+    // Hide until loaded, then animate. Rendering the image while it animates looks bad.
+    visibility: hidden;
+    &.is-loaded {
+      visibility: visible;
+
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+      animation-name: slide;
+    }
   }
 }
 

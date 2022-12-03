@@ -1,5 +1,9 @@
 .hero
-  = image_tag "hondae.png", alt: "", class: "hero-image"
+  = image_tag "hondae.png", alt: "", class: "hero-image", id: "hero"
+
+javascript:
+  const hero = document.getElementById("hero")
+  hero.addEventListener("load", () => hero.classList.add("is-loaded"))
 
 markdown:
 
