@@ -63,52 +63,43 @@ li img {
   }
 }
 
-.relative { position: relative; }
-
 .hero {
-  width: 24em;
+  position: relative;
 
+  width: 24em;
+  max-width: 100%;
+
+  // Image ratio is the same as the dimensions of source/images/hondae.png.
+  aspect-ratio: 1049 / 439;
+
+  margin: 2em auto;
   shape-margin: 0.5em;
 
   // Transparent parts could overlay text and make links unclickable.
   z-index: -1;
 
-  // On small displays:
-  // - Hide placeholder entirely
-  // - Animate in car proper via position relative
+  @include large-display {
+    float: right;
 
-  &--placeholder {
-    display: none;
+    margin: 0;
+
+    // Polygon following the outline of source/images/hondae.png.
+    // Generated with https://bennettfeely.com/clippy/.
+    shape-outside: polygon(38% 0, 100% 0, 100% 100%, 57% 100%, 13% 94%, 1% 86%, 9% 69%, 12% 29%, 27% 17%);
   }
 
-  &--proper {
-    margin: 2em auto;
+  &-image {
+    position: absolute;
 
-    position: relative;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
 
     animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-name: slide;
-  }
-
-  // On large displays:
-  // - Placeholder is floated with shape-outside (as inline style) to reserve space (avoiding jumpiness in Firefox)
-  // - Animate in car proper on top via position absolute
-
-  @include large-display {
-    &--placeholder {
-      display: inline;
-      float: right;
-      visibility: hidden;
-    }
-
-    &--proper {
-      margin: 0;
-
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
   }
 }
 
