@@ -187,11 +187,26 @@ footer {
   font-size: 14px;
 }
 
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
 .images {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+
+  margin: $mid-space 0;
+
+  figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
 
   figcaption {
-    text-align: center;
-    font-style: italic;
+    margin-top: 5px;
   }
 }
