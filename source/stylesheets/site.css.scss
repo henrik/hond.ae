@@ -186,3 +186,12 @@ footer {
   opacity: 0.6;
   font-size: 14px;
 }
+
+.images {
+  display: flex;
+
+  figcaption {
+    text-align: center;
+    font-style: italic;
+  }
+}
