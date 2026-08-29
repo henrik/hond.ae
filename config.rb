@@ -64,6 +64,7 @@ helpers do
   end
 
   # Always link to the 2020 manual since the 2021 manual has some broken images, at least on some platforms.
+  # Specify the page number(s) printed on the page; the link will account for it (by adding 1).
   def link_to_manual(first_page, last_page = nil)
     text = "2020 manual, #{last_page ? "pp. #{first_page}–#{last_page}" : "p. #{first_page}"}"
     url = "https://www.honda.co.uk/cars/owners/manuals-and-guides/honda-owners-manuals/_jcr_content/par1/textcolumnwithimagem_2131108407/textColumn/richtextdownload_8ec/file.res/32TYF6010_web%20EN_compressed.pdf#page=#{first_page + 1}"
